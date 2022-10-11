@@ -104,3 +104,9 @@
   -ms-transition: background-color 2000ms linear;
   transition: background-color 2000ms linear;
 }
+@media only screen and (max-width: 547px) {
+  .progressBar {
+    height: 120px;
+    padding: 30px 0 0 0;
+  }
+}
