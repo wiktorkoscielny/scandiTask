@@ -1,0 +1,106 @@
+.progressBar {
+  margin: 0;
+  padding: 0;
+  height: 80px;
+  width: 100%;
+  background: var(--breadcrumbs-background);
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: flex-start;
+  align-content: center;
+}
+.left-section {
+  width: 30%;
+  height: 100%;
+  position: relative;
+  z-index: 1;
+}
+.left-empty-line {
+  position: absolute;
+  top: 10px;
+  width: 110%;
+  height: 5px;
+  border: 1px solid transparent;
+  border-radius: 0px 3px 3px 0px;
+  background-color: #f26323;
+}
+.circle-wrapper {
+  position: relative;
+  height: 100%;
+  position: relative;
+  width: 10%;
+  display: block;
+  z-index: 2;
+}
+.circle {
+  width: 35px;
+  height: 35px;
+  border-radius: 50%;
+  position: absolute;
+  top: -5px;
+  left: 0;
+  right: 0;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  display: table;
+  -webkit-transition: background-color 2000ms ease;
+  -ms-transition: background-color 2000ms ease;
+  transition: background-color 2000ms ease;
+}
+.circle > p {
+  color: white;
+  text-align: center;
+  vertical-align: middle;
+  display: table-cell;
+}
+.circle-exp {
+  margin-top: 35px;
+  text-align: center;
+  font-weight: bold;
+}
+.circle-exp > p {
+  font-size: 12px;
+  -webkit-transition: color 2000ms ease;
+  -ms-transition: color 2000ms ease;
+  transition: color 2000ms ease;
+}
+.middle-section {
+  width: 20%;
+  height: 100%;
+  position: relative;
+  z-index: 1;
+}
+.middle-empty-line {
+  position: absolute;
+  top: 10px;
+  margin-left: -15%;
+  width: 130%;
+  height: 5px;
+  border: 1px solid transparent;
+  border-radius: 3px 3px 3px 3px;
+  -webkit-transition: background-color 3000ms ease;
+  -ms-transition: background-color 3000ms ease;
+  transition: background-color 3000ms ease;
+}
+.right-section {
+  width: 30%;
+  height: 100%;
+  position: relative;
+  z-index: 1;
+}
+.right-empty-line {
+  position: absolute;
+  background-color: #dbdbdb;
+  top: 10px;
+  margin-left: -10%;
+  width: 110%;
+  height: 5px;
+  border: 1px solid transparent;
+  border-radius: 3px 0px 0px 3px;
+  -webkit-transition: background-color 2000ms linear;
+  -ms-transition: background-color 2000ms linear;
+  transition: background-color 2000ms linear;
+}
