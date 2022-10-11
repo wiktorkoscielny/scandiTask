@@ -1,4 +1,4 @@
-# Getting Started with z
+# Getting Started with Create ScandiPWA App
 
 This package contains new ScandiPWA theme sources. Your parent theme is `@scandipwa/scandipwa`.
 
